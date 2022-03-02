@@ -29,7 +29,7 @@ const Label = ({ children }) => {
 
 const App = () => {
   return (
-    <ThemeProvider foreground="green">
+    <ThemeProvider initialTheme={darkTheme}>
       <Label>Hello</Label>
     </ThemeProvider>
   );
